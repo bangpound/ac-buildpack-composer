@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ -z ${PACKAGIST_TOKEN} ]]; then
+  exit 1
+else
+  echo "PHP with Private Packagist" && exit 0
+fi
